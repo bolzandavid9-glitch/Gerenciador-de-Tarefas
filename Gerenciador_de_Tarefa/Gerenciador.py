@@ -117,7 +117,7 @@ def main():
     
         print(choice)
     
-        entrada = input("precione Q para sair e C para continuar: ")
+        entrada = input("precione S para sair e C para continuar: ")
         if entrada == 'C':
             escolha_user = (input("seleciona uma opção: "))
             if escolha_user == '1':
@@ -151,7 +151,7 @@ def main():
             else:
                 print("selecione um opção valida")
     
-        elif entrada == 'Q':
+        elif entrada == 'S':
             break
     
         else:
